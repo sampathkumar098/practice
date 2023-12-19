@@ -1,0 +1,189 @@
+.category {
+  align-self: stretch;
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+}
+.designingDifferentSolutions {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--app-bold-h4-size);
+  line-height: 140%;
+  color: var(--white);
+}
+.copy1,
+.heading {
+  align-self: stretch;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.copy1 {
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+  color: var(--gray-3);
+}
+.content,
+.copy {
+  position: absolute;
+}
+.copy {
+  top: 57px;
+  left: 549px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content {
+  top: 237px;
+  left: 335px;
+  width: 1059px;
+  height: 280px;
+  font-size: var(--v3-web-sub-subheading-1-size);
+  color: var(--foundation-launchpad-orange-normal);
+}
+.rectangleOrangeIcon {
+  position: absolute;
+  top: 539px;
+  left: 480.9px;
+  width: 106.8px;
+  height: 25.1px;
+  object-fit: cover;
+}
+.image {
+  position: absolute;
+  top: calc(50% - 133px);
+  left: 389px;
+  width: 323px;
+  height: 323px;
+}
+.settingsIcon,
+.settingsStrokeIcon {
+  position: absolute;
+  top: 448.7px;
+  left: 329.9px;
+  width: 95.2px;
+  height: 99.3px;
+  object-fit: contain;
+  opacity: 0;
+}
+.settingsStrokeIcon {
+  top: 167.6px;
+  left: 614.7px;
+  width: 171.9px;
+  height: 171.6px;
+}
+.processChild {
+  position: absolute;
+  top: 263.8px;
+  left: 419.2px;
+  width: 231.2px;
+  height: 300px;
+  object-fit: cover;
+}
+.launchpadWrapper {
+  position: absolute;
+  top: 19.4px;
+  left: 21.8px;
+  border-radius: 1.62px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  box-shadow: 3.2px 3.2px 20.19px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8.075000762939453px 9.690000534057617px;
+}
+.launchpadChild {
+  position: absolute;
+  top: 0;
+  left: -3.2px;
+  width: 19.6px;
+  height: 19.6px;
+  object-fit: contain;
+}
+.launchpad {
+  position: absolute;
+  top: 467.3px;
+  right: 955.4px;
+  width: 105.8px;
+  height: 46.8px;
+  text-align: center;
+}
+.you {
+  position: relative;
+  line-height: 100%;
+}
+.youWrapper {
+  position: absolute;
+  top: 18.6px;
+  left: 0;
+  border-radius: 1.62px;
+  background-color: var(--color-dodgerblue-100);
+  box-shadow: 3.2px 3.2px 20.19px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 8.075000762939453px 9.690000534057617px;
+}
+.clientChild {
+  position: absolute;
+  top: 0;
+  left: 48.5px;
+  width: 19.6px;
+  height: 19.6px;
+  object-fit: contain;
+}
+.client {
+  position: absolute;
+  top: 367.9px;
+  left: 322px;
+  width: 66.2px;
+  height: 46px;
+  text-align: right;
+}
+.crossElementIcon,
+.crossElementWhite {
+  position: absolute;
+  top: 400.2px;
+  left: 716px;
+  width: 5.7px;
+  height: 5.7px;
+  object-fit: cover;
+  opacity: 0;
+}
+.crossElementWhite {
+  top: 259.7px;
+  left: 350.2px;
+  width: 7.3px;
+  height: 7.3px;
+}
+.oblongElement {
+  position: absolute;
+  top: 456.8px;
+  left: 661.1px;
+  border-radius: 403.75px;
+  background-color: var(--white);
+  width: 29.1px;
+  height: 29.1px;
+  opacity: 0;
+}
+.process {
+  position: relative;
+  background-color: var(--color-gray-700);
+  width: 100%;
+  height: 716px;
+  text-align: left;
+  font-size: var(--font-size-xs-3);
+  color: var(--white);
+  font-family: var(--v3-web-body-body-2);
+}

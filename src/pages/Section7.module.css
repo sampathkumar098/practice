@@ -1,0 +1,25 @@
+.home,
+.section {
+  position: relative;
+}
+.home {
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 600;
+}
+.section {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-700);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--white);
+  font-family: var(--v3-web-body-body-2);
+}

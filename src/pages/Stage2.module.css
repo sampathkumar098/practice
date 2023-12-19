@@ -1,0 +1,149 @@
+.image {
+  position: absolute;
+  top: 25.7px;
+  left: 61.3px;
+  width: 199.9px;
+  height: 199.9px;
+}
+.launchpadWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0.99px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  box-shadow: 2px 2px 12.37px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4.946318626403809px 5.935582160949707px;
+}
+.launchpadChild {
+  position: absolute;
+  top: 0;
+  right: 0.1px;
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+.launchpad {
+  position: absolute;
+  top: 156.3px;
+  right: 234.8px;
+  width: 63.3px;
+  height: 28.7px;
+}
+.circleElementIcon {
+  position: absolute;
+  top: 0;
+  left: 251.7px;
+  width: 46.4px;
+  height: 29.7px;
+  object-fit: cover;
+}
+.circleWhiteElement {
+  position: absolute;
+  top: 70.8px;
+  left: 27.6px;
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 27.6px;
+  height: 27.6px;
+}
+.you {
+  position: relative;
+  line-height: 100%;
+}
+.youWrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0.99px;
+  background-color: var(--color-dodgerblue-100);
+  box-shadow: 2px 2px 12.37px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 4.946318626403809px 5.935582160949707px;
+}
+.clientChild {
+  position: absolute;
+  top: 0;
+  left: -0.2px;
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+.client {
+  position: absolute;
+  top: 76.2px;
+  left: 240.8px;
+  width: 37.1px;
+  height: 28.2px;
+  text-align: right;
+}
+.circleStrokeIcon {
+  position: absolute;
+  top: 158.8px;
+  left: 219.1px;
+  width: 38.1px;
+  height: 38.1px;
+  object-fit: cover;
+}
+.oblongElement {
+  position: absolute;
+  top: 167.7px;
+  left: 228.2px;
+  border-radius: 247.32px;
+  background-color: var(--white);
+  width: 53.2px;
+  height: 17.5px;
+}
+.maskGroupIcon,
+.whiteLightIcon {
+  position: absolute;
+  top: 18.3px;
+  left: 78.8px;
+  width: 140px;
+  height: 99.6px;
+  object-fit: cover;
+}
+.maskGroupIcon {
+  top: 40.2px;
+  left: 72.7px;
+  width: 155.8px;
+  height: 155.8px;
+}
+.rectangle {
+  position: absolute;
+  top: 180.5px;
+  left: 107.1px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 86.3px;
+  height: 36.8px;
+}
+.rectangleOrangeIcon,
+.stage2Child {
+  position: absolute;
+  top: 40.2px;
+  left: 72.7px;
+  width: 155.8px;
+  height: 177.3px;
+  object-fit: cover;
+}
+.rectangleOrangeIcon {
+  top: 225.6px;
+  left: 114.4px;
+  width: 71.8px;
+  height: 16.9px;
+}
+.stage2 {
+  position: relative;
+  width: 100%;
+  height: 242.5px;
+  text-align: center;
+  font-size: var(--font-size-6xs-9);
+  color: var(--white);
+  font-family: var(--v3-web-body-body-2);
+}

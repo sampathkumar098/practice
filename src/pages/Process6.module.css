@@ -1,0 +1,200 @@
+.category {
+  align-self: stretch;
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+}
+.researchStrategy {
+  position: relative;
+  font-size: var(--app-bold-h4-size);
+  line-height: 140%;
+  color: var(--white);
+}
+.copy1,
+.heading,
+.researchStrategy {
+  align-self: stretch;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.copy1 {
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+  color: var(--gray-3);
+}
+.content,
+.copy {
+  position: absolute;
+}
+.copy {
+  top: 57px;
+  left: 549px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content {
+  top: 237px;
+  left: 335px;
+  width: 1059px;
+  height: 280px;
+  font-size: var(--v3-web-sub-subheading-1-size);
+  color: var(--foundation-launchpad-orange-normal);
+}
+.circleElementIcon,
+.circleStrokeIcon,
+.starIcon {
+  position: absolute;
+  top: 404.3px;
+  left: 583.6px;
+  width: 111.5px;
+  height: 111.5px;
+  object-fit: cover;
+}
+.circleElementIcon,
+.starIcon {
+  top: 237.3px;
+  left: 595.1px;
+  width: 66.4px;
+  height: 26.7px;
+}
+.starIcon {
+  top: 249.9px;
+  left: 383.6px;
+  width: 52.4px;
+  height: 52.4px;
+}
+.circle1 {
+  top: 264px;
+  left: 419px;
+  border-radius: 50%;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 231px;
+  height: 231px;
+}
+.circle1,
+.circle2,
+.icon {
+  position: absolute;
+}
+.circle2 {
+  top: 298.7px;
+  left: 453.6px;
+  border-radius: 50%;
+  background-color: var(--color-lightsalmon);
+  width: 161.7px;
+  height: 161.7px;
+}
+.icon {
+  top: 339.1px;
+  left: 511.4px;
+  width: 51px;
+  height: 80.8px;
+  object-fit: cover;
+}
+.you {
+  position: relative;
+  line-height: 100%;
+}
+.youWrapper {
+  position: absolute;
+  right: -0.1px;
+  bottom: 0;
+  border-radius: 1.15px;
+  background-color: var(--color-dodgerblue-100);
+  box-shadow: 2.3px 2.3px 14.44px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 5.775000095367432px 6.929999828338623px;
+}
+.clientChild {
+  position: absolute;
+  top: 0;
+  left: -0.2px;
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+.client {
+  position: absolute;
+  top: 415.3px;
+  left: 576.7px;
+  width: 43.3px;
+  height: 32.9px;
+  text-align: right;
+}
+.launchpadWrapper {
+  position: absolute;
+  bottom: 0.1px;
+  left: 0;
+  border-radius: 1.15px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  box-shadow: 2.3px 2.3px 14.44px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5.775000095367432px 6.929999828338623px;
+}
+.launchpadChild {
+  position: absolute;
+  top: 0;
+  right: 0.1px;
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+.launchpad {
+  position: absolute;
+  top: 358.7px;
+  left: 335.8px;
+  width: 73.9px;
+  height: 33.5px;
+  text-align: center;
+}
+.squareBlack {
+  position: absolute;
+  top: 533.2px;
+  left: 502.6px;
+  background-color: var(--foundation-black-white-black);
+  width: 67.7px;
+  height: 59.2px;
+  opacity: 0;
+}
+.triangleGrayIcon,
+.triangleWhiteIcon {
+  position: absolute;
+  top: 475.4px;
+  left: 497px;
+  width: 78.9px;
+  height: 78.9px;
+  object-fit: cover;
+  opacity: 0;
+}
+.triangleGrayIcon {
+  left: 521.6px;
+  width: 29.6px;
+  height: 29.6px;
+}
+.process {
+  position: relative;
+  background-color: var(--color-gray-700);
+  width: 100%;
+  height: 716px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-4xs-1);
+  color: var(--white);
+  font-family: var(--v3-web-body-body-2);
+}

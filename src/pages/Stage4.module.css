@@ -1,0 +1,157 @@
+.stage4Child,
+.stage4Item {
+  position: absolute;
+  top: 40.3px;
+  left: 98.3px;
+  border-radius: 50%;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 155.9px;
+  height: 155.9px;
+}
+.stage4Item {
+  top: 62.5px;
+  left: 120.6px;
+  background-color: var(--color-lightsalmon);
+  width: 111.4px;
+  height: 111.4px;
+}
+.stage4Inner {
+  position: absolute;
+  top: 181.7px;
+  left: 132.8px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 86.4px;
+  height: 36.9px;
+}
+.arrowIcon,
+.rectangleIcon {
+  position: absolute;
+  top: 226.4px;
+  left: 140px;
+  width: 71.9px;
+  height: 16.9px;
+  object-fit: cover;
+}
+.arrowIcon {
+  top: 75.5px;
+  left: 133.1px;
+  width: 86.4px;
+  height: 142.9px;
+}
+.sunriseLinesIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.03);
+}
+.wrapperSunriseLines {
+  position: absolute;
+  top: 0;
+  left: 66.3px;
+  width: 217.9px;
+  height: 109.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.groupIcon {
+  position: absolute;
+  height: 21.13%;
+  width: 16.01%;
+  top: 68.56%;
+  right: 73.92%;
+  bottom: 10.32%;
+  left: 10.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.you {
+  position: relative;
+  line-height: 100%;
+}
+.youWrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 1.09px;
+  background-color: var(--color-dodgerblue-100);
+  box-shadow: 2.2px 2.2px 13.58px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 5.432764530181885px 6.519316673278809px;
+}
+.clientChild {
+  position: absolute;
+  top: 0;
+  left: 0.1px;
+  width: 13.2px;
+  height: 13.2px;
+  object-fit: contain;
+}
+.client {
+  position: absolute;
+  top: 104.9px;
+  left: 289px;
+  width: 40.7px;
+  height: 31px;
+}
+.launchpadWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 1.09px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  box-shadow: 2.2px 2.2px 13.58px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5.432764530181885px 6.519316673278809px;
+}
+.launchpadChild {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 13.2px;
+  height: 13.2px;
+  object-fit: contain;
+}
+.launchpad {
+  position: absolute;
+  top: 0;
+  right: 260.3px;
+  width: 69.5px;
+  height: 31.5px;
+  text-align: center;
+}
+.cursors,
+.starLinesIcon {
+  position: absolute;
+  top: 55.4px;
+  left: 0;
+  width: 329.8px;
+  height: 135.8px;
+}
+.starLinesIcon {
+  top: 21.2px;
+  left: 283.6px;
+  width: 37.5px;
+  height: 37.5px;
+  object-fit: cover;
+}
+.stage4 {
+  position: relative;
+  width: 100%;
+  height: 243.3px;
+  text-align: right;
+  font-size: var(--font-size-5xs-6);
+  color: var(--white);
+  font-family: var(--v3-web-body-body-2);
+}

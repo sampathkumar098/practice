@@ -1,0 +1,27 @@
+.imageIcon {
+  position: absolute;
+  top: -41px;
+  left: -27.6px;
+  border-radius: var(--br-5xl);
+  width: 300.9px;
+  height: 361px;
+  object-fit: cover;
+}
+.profileChild {
+  position: absolute;
+  bottom: 224.8px;
+  left: 73.6px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 98.4px;
+  height: 22.7px;
+  transform: rotate(-8.01deg);
+  transform-origin: 0 0;
+  display: none;
+  mix-blend-mode: color-dodge;
+}
+.profile {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  opacity: 0.2;
+}

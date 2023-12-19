@@ -1,0 +1,132 @@
+.image {
+  position: absolute;
+  top: calc(50% - 94.7px);
+  left: 45.1px;
+  width: 217.4px;
+  height: 217.4px;
+}
+.stage3Child {
+  position: absolute;
+  top: 64.7px;
+  left: 65.4px;
+  width: 155.6px;
+  height: 201.9px;
+  object-fit: cover;
+}
+.launchpadWrapper {
+  position: absolute;
+  top: 13px;
+  left: 14.7px;
+  border-radius: 1.09px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  box-shadow: 2.2px 2.2px 13.59px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5.4344072341918945px 6.521289348602295px;
+}
+.launchpadChild {
+  position: absolute;
+  top: 0;
+  left: -2.2px;
+  width: 13.2px;
+  height: 13.2px;
+  object-fit: contain;
+}
+.launchpad {
+  position: absolute;
+  top: 201.7px;
+  right: 9.5px;
+  width: 71.2px;
+  height: 31.5px;
+}
+.you {
+  position: relative;
+  line-height: 100%;
+}
+.youWrapper {
+  position: absolute;
+  top: 12.5px;
+  left: 0;
+  border-radius: 1.09px;
+  background-color: var(--color-dodgerblue-100);
+  box-shadow: 2.2px 2.2px 13.59px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 5.4344072341918945px 6.521289348602295px;
+}
+.clientChild {
+  position: absolute;
+  top: 0;
+  left: 32.6px;
+  width: 13.2px;
+  height: 13.2px;
+  object-fit: contain;
+}
+.client {
+  position: absolute;
+  top: 134.8px;
+  left: 0;
+  width: 44.6px;
+  height: 31px;
+  text-align: right;
+}
+.crossElementIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.264);
+}
+.wrapperCrossElement,
+.wrapperCrossElementWhite {
+  position: absolute;
+  top: 148.4px;
+  left: 260.9px;
+  width: 12.5px;
+  height: 12.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperCrossElementWhite {
+  top: 58.2px;
+  left: 15.2px;
+}
+.settingsIcon,
+.stage3Item {
+  position: absolute;
+  top: 80.8px;
+  left: 81.7px;
+  width: 123px;
+  height: 123px;
+  object-fit: cover;
+}
+.settingsIcon {
+  top: 196.8px;
+  left: 9.7px;
+  width: 55.4px;
+  height: 51.5px;
+}
+.settingsStrokeIcon {
+  position: absolute;
+  top: 0;
+  left: 197.1px;
+  width: 115.7px;
+  height: 115.5px;
+  object-fit: contain;
+}
+.stage3 {
+  position: relative;
+  width: 100%;
+  height: 266.6px;
+  text-align: center;
+  font-size: var(--font-size-5xs-6);
+  color: var(--white);
+  font-family: var(--v3-web-body-body-2);
+}

@@ -1,0 +1,174 @@
+.benefitsChild {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--foundation-black-white-black);
+  box-sizing: border-box;
+  width: 1728px;
+  height: 1px;
+}
+.icon {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.teamMembersHave,
+.weWantEveryone {
+  position: relative;
+  display: inline-block;
+  width: 442px;
+}
+.teamMembersHave {
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.weWantEveryone {
+  font-size: var(--v3-web-sub-subheading-1-size);
+  line-height: 170%;
+  font-weight: 300;
+  color: var(--color-gray-700);
+}
+.block,
+.copy {
+  flex-direction: column;
+}
+.copy {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.block {
+  align-self: stretch;
+  background-color: var(--white);
+  justify-content: space-between;
+  padding: var(--padding-61xl) var(--padding-35xl);
+}
+.block,
+.block1,
+.carosuel {
+  display: flex;
+  align-items: flex-start;
+}
+.block1 {
+  align-self: stretch;
+  background-color: var(--white);
+  border-left: 1px solid var(--gray-4);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--padding-61xl) var(--padding-35xl);
+}
+.carosuel {
+  position: absolute;
+  top: 0;
+  left: 310px;
+  width: 863px;
+  height: 655px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.benefitsAt {
+  margin: 0;
+}
+.launchpad {
+  margin: 0;
+  color: var(--foundation-launchpad-orange-normal);
+}
+.benefitsAtLaunchpadContainer,
+.loremIpsumDolor {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  font-size: var(--v3-web-sub-subheading-1-size);
+  line-height: 170%;
+  font-weight: 300;
+}
+.copy3 {
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.cursorButtonIcon {
+  position: relative;
+  border-radius: var(--br-37xl);
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.arrowUpRightIcon {
+  position: absolute;
+  top: calc(50% - 14.1px);
+  left: calc(50% - 14.1px);
+  width: 28.3px;
+  height: 28.3px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.view {
+  position: absolute;
+  top: 22.9px;
+  left: 21.3px;
+  line-height: 26.18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: none;
+}
+.cursorButton {
+  position: relative;
+  border-radius: var(--br-37xl);
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.cursorButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-xs-5);
+  color: var(--white);
+}
+.benefits,
+.copyParent {
+  background-color: var(--white);
+  height: 655px;
+}
+.copyParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 1px solid var(--gray-4);
+  box-sizing: border-box;
+  width: 864px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-213xl);
+  gap: var(--gap-29xl);
+  font-size: var(--font-size-45xl);
+}
+.benefits {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--v3-web-heading-heading-2-size);
+  color: var(--foundation-black-white-black);
+  font-family: var(--v3-web-body-body-2);
+}

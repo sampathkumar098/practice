@@ -1,0 +1,209 @@
+.category {
+  align-self: stretch;
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+}
+.designingDifferentSolutions {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--app-bold-h4-size);
+  line-height: 140%;
+  color: var(--white);
+}
+.copy1,
+.heading {
+  align-self: stretch;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.copy1 {
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+  color: var(--gray-3);
+}
+.copy {
+  position: absolute;
+  top: 57px;
+  left: 549px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content,
+.image {
+  position: absolute;
+  top: 237px;
+  left: 335px;
+  width: 1059px;
+  height: 280px;
+}
+.image {
+  top: 38.2px;
+  left: 91.1px;
+  width: 297px;
+  height: 297px;
+}
+.launchpadWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 1.47px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  box-shadow: 2.9px 2.9px 18.37px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7.349747180938721px 8.819696426391602px;
+}
+.launchpadChild {
+  position: absolute;
+  top: 0;
+  right: 0.2px;
+  width: 17.8px;
+  height: 17.8px;
+  object-fit: contain;
+}
+.launchpad {
+  position: absolute;
+  top: 232.3px;
+  right: 348.9px;
+  width: 94.1px;
+  height: 42.6px;
+}
+.circleElementIcon {
+  position: absolute;
+  top: 0;
+  left: 374px;
+  width: 68.9px;
+  height: 44.1px;
+  object-fit: cover;
+}
+.circleWhiteElement {
+  position: absolute;
+  top: 105.2px;
+  left: 41.1px;
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 41px;
+  height: 41px;
+}
+.you {
+  position: relative;
+  line-height: 100%;
+}
+.youWrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 1.47px;
+  background-color: var(--color-dodgerblue-100);
+  box-shadow: 2.9px 2.9px 18.37px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 7.349747180938721px 8.819696426391602px;
+}
+.clientChild {
+  position: absolute;
+  top: 0;
+  left: -0.3px;
+  width: 17.8px;
+  height: 17.8px;
+  object-fit: contain;
+}
+.client {
+  position: absolute;
+  top: 113.2px;
+  left: 357.9px;
+  width: 55.1px;
+  height: 41.9px;
+  text-align: right;
+}
+.circleStrokeIcon {
+  position: absolute;
+  top: 235.9px;
+  left: 325.5px;
+  width: 56.6px;
+  height: 56.6px;
+  object-fit: cover;
+}
+.oblongElement {
+  position: absolute;
+  top: 249.2px;
+  left: 339.1px;
+  border-radius: 367.49px;
+  background-color: var(--white);
+  width: 79px;
+  height: 26px;
+}
+.maskGroupIcon,
+.whiteLightIcon {
+  position: absolute;
+  top: 27.2px;
+  left: 117.1px;
+  width: 208px;
+  height: 148px;
+  object-fit: cover;
+}
+.maskGroupIcon {
+  top: 59.8px;
+  left: 108px;
+  width: 231.4px;
+  height: 231.4px;
+}
+.rectangle {
+  position: absolute;
+  top: 268.2px;
+  left: 159.2px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 128.3px;
+  height: 54.7px;
+}
+.groupChild,
+.rectangleOrangeIcon {
+  position: absolute;
+  top: 59.8px;
+  left: 108px;
+  width: 231.4px;
+  height: 263.4px;
+  object-fit: cover;
+}
+.rectangleOrangeIcon {
+  top: 335.2px;
+  left: 169.9px;
+  width: 106.8px;
+  height: 25.1px;
+}
+.imageParent {
+  position: absolute;
+  top: 203.8px;
+  left: 310.9px;
+  width: 443px;
+  height: 360.3px;
+  text-align: center;
+  font-size: var(--font-size-2xs-3);
+  color: var(--white);
+}
+.process {
+  position: relative;
+  background-color: var(--color-gray-700);
+  width: 100%;
+  height: 716px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--v3-web-sub-subheading-1-size);
+  color: var(--foundation-launchpad-orange-normal);
+  font-family: var(--v3-web-body-body-2);
+}

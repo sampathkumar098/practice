@@ -1,0 +1,219 @@
+.category,
+.launchingSuccessfully {
+  align-self: stretch;
+  position: relative;
+}
+.category {
+  line-height: 170%;
+  font-weight: 300;
+}
+.launchingSuccessfully {
+  font-size: var(--app-bold-h4-size);
+  line-height: 140%;
+  color: var(--white);
+}
+.copy1,
+.heading {
+  align-self: stretch;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.copy1 {
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+  color: var(--gray-3);
+}
+.content,
+.copy {
+  position: absolute;
+}
+.copy {
+  top: 57px;
+  left: 549px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content {
+  top: 237px;
+  left: 335px;
+  width: 1059px;
+  height: 280px;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 59.9px;
+  left: 146.1px;
+  border-radius: 50%;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 231.6px;
+  height: 231.6px;
+}
+.groupItem {
+  top: 92.8px;
+  left: 179.2px;
+  background-color: var(--color-lightsalmon);
+  width: 165.5px;
+  height: 165.5px;
+}
+.groupInner {
+  position: absolute;
+  top: 270px;
+  left: 197.3px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  width: 128.4px;
+  height: 54.8px;
+}
+.arrowIcon,
+.rectangleIcon {
+  position: absolute;
+  top: 336.4px;
+  left: 208px;
+  width: 106.8px;
+  height: 25.1px;
+  object-fit: cover;
+}
+.arrowIcon {
+  top: 112.2px;
+  left: 197.8px;
+  width: 128.4px;
+  height: 212.3px;
+}
+.sunriseLinesIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.029);
+}
+.wrapperSunriseLines {
+  position: absolute;
+  top: 0;
+  left: 98.5px;
+  width: 323.7px;
+  height: 162.9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.groupIcon {
+  position: absolute;
+  height: 21.11%;
+  width: 16%;
+  top: 68.55%;
+  right: 73.94%;
+  bottom: 10.35%;
+  left: 10.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.you {
+  position: relative;
+  line-height: 100%;
+}
+.youWrapper {
+  position: absolute;
+  right: -0.1px;
+  bottom: 0;
+  border-radius: 1.61px;
+  background-color: var(--color-dodgerblue-100);
+  box-shadow: 3.2px 3.2px 20.18px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 8.072558403015137px 9.6870698928833px;
+}
+.clientChild {
+  position: absolute;
+  top: 0;
+  left: 0.1px;
+  width: 19.6px;
+  height: 19.6px;
+  object-fit: contain;
+}
+.client {
+  position: absolute;
+  top: 155.8px;
+  left: 429.5px;
+  width: 60.5px;
+  height: 46px;
+}
+.launchpadWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 1.61px;
+  background-color: var(--foundation-launchpad-orange-normal);
+  box-shadow: 3.2px 3.2px 20.18px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8.072558403015137px 9.6870698928833px;
+}
+.launchpadChild {
+  position: absolute;
+  top: 0;
+  right: 0.1px;
+  width: 19.6px;
+  height: 19.6px;
+  object-fit: contain;
+}
+.launchpad {
+  position: absolute;
+  top: 0;
+  right: 386.7px;
+  width: 103.3px;
+  height: 46.8px;
+  text-align: center;
+}
+.cursors,
+.starLinesIcon {
+  position: absolute;
+  top: 82.3px;
+  left: 0;
+  width: 490px;
+  height: 201.8px;
+}
+.starLinesIcon {
+  top: 31.5px;
+  left: 421.4px;
+  width: 55.7px;
+  height: 55.7px;
+  object-fit: cover;
+}
+.ellipseParent {
+  position: absolute;
+  top: 203px;
+  left: 273px;
+  width: 490px;
+  height: 361.5px;
+  text-align: right;
+  font-size: var(--font-size-xs-3);
+  color: var(--white);
+}
+.process {
+  position: relative;
+  background-color: var(--color-gray-700);
+  width: 100%;
+  height: 716px;
+  text-align: left;
+  font-size: var(--v3-web-sub-subheading-1-size);
+  color: var(--foundation-launchpad-orange-normal);
+  font-family: var(--v3-web-body-body-2);
+}
